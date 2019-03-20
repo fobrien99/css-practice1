@@ -16,6 +16,10 @@ a:hover {
     color: #fff;
 }
 
+.clr {
+    clear: both;
+}
+
 .container {
     width: 80%;
     max-width: 960px;
@@ -78,7 +82,8 @@ a:hover {
 }
 
 .my-form {
-    padding: 20px;
+    padding: 20px 20px 20px 0;
+    /* background: yellow; */
 }
 
 .my-form .form-group {
@@ -94,10 +99,82 @@ a:hover {
     width: 100%;
 }
 
+/* .my-form input[type="submit"]{
+    margin-left: 20px;
+} */
+
 .block {
+   width: 33.3%;
+   float: left;
+   border: 1px solid #ccc;
+   padding: 8px 15px;
+   box-sizing: border-box;
+}
+#main-block{
+    /* margin-top: 20px; */
     float: left;
-    width: 33.3%;
-    border: 1px solid #ccc;
-    padding: 10px;
+    width: 70%;
+    padding: 8px 15px;
     box-sizing: border-box;
+}
+#sidebar{
+    margin-top: 20px;
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-size: 12pt;
+}
+
+.p-box {
+    width: 100%;
+    height: 280px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background: url(../img/bgimage.png) no-repeat;
+    background-size: cover;
+}
+
+.p-box h1{
+    top: 20px;
+    position: absolute;
+    left: 50%;
+    color: #f4f4f4;
+}
+.p-box h2{
+    top: 100px;
+    position: absolute;
+    left: 40%;
+    color: #f4f4f4;
+}
+
+.fix-me {
+    position: fixed;
+    top: 700px;
+}
+
+.my-list {
+    list-style: none;
+    /* width: 100%; */
+    /* margin-left: -40px; */
+    color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    line-height: 2em;s
+}
+
+.my-list li:first-child{
+    background: rgb(210, 4, 41);
+}
+
+.my-list li:last-child{
+    background: rgb(4, 193, 174);
+}
+
+.my-list li:nth-child(2){
+    background: rgba(255, 183, 0, 0.906);
 }
