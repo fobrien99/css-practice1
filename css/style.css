@@ -16,10 +16,25 @@ a:hover {
     color: #fff;
 }
 
-
 .container {
     width: 80%;
+    max-width: 960px;
     margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color: #ccc;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.button:hover{
+    color: #fff;
+    /* border: 1px solid #fff; */
+    transition: 0.6s;   
 }
 
 .box-1 {
@@ -77,4 +92,12 @@ a:hover {
 .my-form input[type="text"], .my-form textarea{
     padding: 8px;
     width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
 }
